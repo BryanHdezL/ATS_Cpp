@@ -1,4 +1,4 @@
-//Ejercicio #3 determina los numeros pares e impares.
+//Ejercicio #3 determinar los numeros pares e impares.
 
 /***********************************************************************
 Realice un programa que lea un valor entero y determine si se trata de
