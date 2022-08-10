@@ -1,7 +1,6 @@
 // Funcion strcmp() -> Comparar cadenas.
 
 #include <string.h>
-
 #include <iostream>
 using namespace std;
 
