@@ -12,7 +12,7 @@ alumno.
 #include <iostream>
 using namespace std;
 
-//Estructura Corredor
+//Estructura Alumno.
 struct alumno{
     char nombre[20];
     int edad;
