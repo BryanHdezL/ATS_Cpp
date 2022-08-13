@@ -37,8 +37,7 @@ int main() {
     cout << "\nDigite los siguientes datos:" << endl;
     for (int i = 0; i < numAlumnos; i++) {
         fflush(stdin);
-        cout << "\n * Alumno #" << i + 1 << " *\n"
-             << endl;
+        cout << "\n * Alumno #" << i + 1 << " *\n" << endl;
         cout << "\t - Nombre: ";
         cin.getline(alumnos[i].nombre, 20, '\n');
         fflush(stdin);
