@@ -36,23 +36,20 @@ int main(){
 
 //Funcion para insertar elementos en la lista.
 void insertarLista(Nodo *&lista, int n){
-    // 1. Crear un nuevo nodo.
     Nodo *nuevoNodo = new Nodo();
-    // 2. Asignar el nuevo nodo al elemento a insertar.
     nuevoNodo->dato = n;
-    // 3. Crear nodos auxiliares, el primer nodo es igual a lista.
+
     Nodo *aux1 = lista;
     Nodo *aux2;
-    // 4. Insertar elementos a la lista.
-    while ((aux1 != NULL) && (aux1->dato < n)) {  // Mientras la lista no este vacia, se comprueba si el elemento a insertar es mayor al ultimo en la lista.
+
+    while ((aux1 != NULL) && (aux1->dato < n)) {
         aux2 = aux1;
         aux1 = aux1->siguiente;
     }
-    //Comprobaciones para conocer le orden en el que se ingresarion a la lista.
     if (lista == aux1){ //No entro al while anterior.
         lista = nuevoNodo;  //Agregamos el primer nodo a la lista.
     }else{
-        aux2->siguiente = aux1; //Agregamos otro nodo a la lista.
+        aux2->siguiente = nuevoNodo; //Agregamos otro nodo a la lista.
     }
     nuevoNodo->siguiente = aux1;  // EL puntero siguiente apuntara al elemento agregado.
     cout << "Elemento " << n << " agregado a la lista." << endl;
