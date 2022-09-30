@@ -19,7 +19,7 @@ struct Nodo{
 
 //Prototipos de las funciones.
 void insertarLista(Nodo *&, int);
-void mostrarLista(Nodo *&);
+void mostrarLista(Nodo *);
 
 //Funcion principal.
 int main(){
@@ -36,7 +36,7 @@ int main(){
 }
 
 //Funcion para mostrar el contenido de una lista.
-void mostrarLista(Nodo *&lista){
+void mostrarLista(Nodo *lista){
     Nodo *actual = new Nodo();
     actual = lista;
     cout << "\t Lista: ";
