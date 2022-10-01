@@ -1,0 +1,2 @@
+Bryan Hernandez.
+Este es un archivo de texto que se encuentra en una carpeta diferente a la que se encuentra el ejecutable.
