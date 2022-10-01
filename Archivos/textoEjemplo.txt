@@ -1,1 +1,2 @@
-La programación informática es el arte del proceso por el cual se limpia, codifica, traza y protege el código fuente de programas computacionales, en otras palabras, es indicarle a la computadora lo que tiene que hacer.
+Bryan Hernandez.
+Este es un archivo de texto que se encuentra en la misma carpeta en la que se encuentra el ejecutable.
