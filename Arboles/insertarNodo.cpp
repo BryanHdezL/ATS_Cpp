@@ -1,7 +1,7 @@
 //Insertar nodo en un arbol binario.
 
 /***********************************************************************
-Para insertar elementos en una lista, solo hay que seguir 4 pasos:
+Para insertar elementos en un arbol binario, solo hay que seguir 4 pasos:
     1. Creamos un nodo.
     2. Asignar los valores de la estructura nodo.
     3. Comprobar si el subarbol esta vacio, en dado caso crear una raiz.
