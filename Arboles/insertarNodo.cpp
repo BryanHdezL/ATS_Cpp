@@ -1,4 +1,4 @@
-//Insertar nodo en una lista.
+//Insertar nodo en un arbol binario.
 
 /***********************************************************************
 Para insertar elementos en una lista, solo hay que seguir 4 pasos:
