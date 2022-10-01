@@ -1,2 +1,4 @@
 Hola
-Mi nombre es Bryan, estudio en ESCOM
+Mi nombre es Bryan
+Estudio en ESCOM
+Bye
