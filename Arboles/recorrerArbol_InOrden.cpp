@@ -1,7 +1,7 @@
 //Recorrer el arbol binario en InOrden.
 
 /***********************************************************************
-Para recorrer un arbol bianrio en preOrden, solo hay que seguir 4 pasos:
+Para recorrer un arbol bianrio en inOrden, solo hay que seguir 4 pasos:
     1. Comprobar si el arbol esta vacio o se llego hasta el fin de sus 
         nodos hojas.
     2. En caso de que aun no se llegue al fin del arbol, se invoca a la 
