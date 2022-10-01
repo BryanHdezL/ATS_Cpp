@@ -1,7 +1,7 @@
 //Buscar un elemento en un arbol binario.
 
 /***********************************************************************
-Para buscar un elemento en un arbol binario, solo hay que seguir 6 pasos:
+Para buscar un elemento en un arbol binario, solo hay que seguir 4 pasos:
     1. Se comprueba si el arbol esta vacio o si ya se llego a sus nodo
         hoja sin encontrar el valore deseado, se retorna FALSE.
     2. Se comprueba si el nodo analizado actual es igual al valor que
